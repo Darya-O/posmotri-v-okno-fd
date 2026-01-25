@@ -59,16 +59,11 @@ ol {
   margin: auto;
 }
 
-.result {
-  margin-top: 78px;
- 
-}
-
 .result__video-container {
   inline-size: 711px;
   block-size: 386px;
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 18px;
 }
 
 .result__video {
@@ -82,7 +77,8 @@ ol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  gap: 40px;
+  
 }
 
 .search-form__fieldset {
@@ -109,8 +105,8 @@ ol {
   gap: 5px;
   width: fit-content;
   position: relative;
-  padding-bottom: 5px;
   text-decoration: underline transparent;
+  padding-bottom: 5px;
 }
 
 .search-form__label-text {
@@ -133,7 +129,6 @@ ol {
   text-decoration-thickness:  1px;
   text-underline-offset: 2px;
 }
-
 
 .search-form__textfield {
   width: 225px;
@@ -172,8 +167,6 @@ ol {
   outline: 1px solid #FFF;
   outline-offset: 2px;
 }
-
-
 
 .search-form__checkbox-list {
   display: flex;
@@ -243,7 +236,7 @@ ol {
   justify-content: space-between;
   gap: 26px;
   inline-size: 100%;
-  block-size: 100%;
+
 }
 
 .title {
@@ -291,7 +284,6 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-bottom: 6px;
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 1;
@@ -314,8 +306,6 @@ ol {
   block-size: 298px;
   overflow-x: auto;
   position: relative;
-  margin-top: 26px;
-
 }
 
 .content__list-item {
@@ -371,6 +361,7 @@ ol {
 .more-button {
   inline-size: 100%;
   padding: 6px 0;
+  margin-top: 30px;
 }
 
 .custom-scrollbar::-webkit-scrollbar {

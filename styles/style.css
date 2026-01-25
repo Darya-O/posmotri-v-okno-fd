@@ -124,7 +124,7 @@ ol {
   outline-offset: 1px;
 }
 
-.search-form__checkbox-list .search-form__label:hover {
+.search-form__checkbox-list + .search-form__label:hover {
   text-decoration: underline;
   text-decoration-thickness:  1px;
   text-underline-offset: 2px;
@@ -168,11 +168,6 @@ ol {
   outline-offset: 2px;
 }
 
-.search-form__checkbox-list {
-  display: flex;
-  gap: 15px;
-}
-
 .search-form__pseudo-checkbox {
   width: 19px;
   height: 19px;
@@ -180,7 +175,7 @@ ol {
   transition: all 0.3s ease;
 }
 
-.search-form__checkbox:checked + .search-form__pseudo-checkbox::after{
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
   content: '';
   display: block;
   background-color: #FFF;
@@ -312,6 +307,7 @@ ol {
   width: 100%;
   padding-left: 3px;
   padding-right: 3px;
+  display: grid;
 }
 
 .content__card-link:active {
@@ -344,10 +340,6 @@ ol {
   height: 103px;
   object-fit: cover;
   object-position: center;
-}
-
-.content__list-item {
-  display: grid;
 }
 
 .content__list-item:focus {
